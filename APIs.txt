@@ -1,0 +1,39 @@
+﻿SWAPI
+
+
+baseURL = https://swapi.dev/api/
+
+
+1. people/4
+2. planets/2
+3. starships/10
+4. people/2
+species/2
+5. people10 
+films/1
+films/2
+films/3
+films/4
+films/5
+films/6
+6. starships/?search=Millennium Falcon
+
+
+
+
+Social Mountain
+
+
+        baseURL = https://practiceapi.devmountain.com/api/
+
+
+1. Req.body - The text of the new post
+2. Returns an array of all posts
+3. posts?id=555
+4. 200 and 409
+5. posts/?id=1364
+6. posts/?id=1364 with the body having {‘text’: ‘blue}
+7. posts/filter/?text=blue
+8. application/json; charset=utf-8
+9. Request was missing req.query.id or req.body.text
+10. It will not do anything. The server is ignoring the request.
